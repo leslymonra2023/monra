@@ -1,0 +1,85 @@
+/*disenoweb.html*/
+
+.proyectos_disenoweb-1 {
+    width: 8%;
+    position: absolute;
+    left: 25%;
+    top: -100px;
+    z-index: 1;
+}
+
+.proyectos_disenoweb-2 {
+    width: 8%;
+    position: absolute;
+    left: 10px;
+    top: 118px;
+    z-index: 1;
+}
+
+.proyectos_disenoweb-3 {
+    width: 24%;
+    position: absolute;
+    left: 50%;
+    z-index: 0;
+}
+
+.galeria_disenoweb1 {
+    background: url("../img/proyectos/diseñoweb/galeria-pro-1.gif")center / cover no-repeat;
+    grid-row: 1/1;
+}
+
+.galeria_disenoweb2 {
+    background: url("../img/proyectos/diseñoweb/galeria-pro-2.jpg")center / cover no-repeat;
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+
+.galeria_disenoweb3 {
+    background-color: #FCC521;
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+
+.galeria_disenoweb3 video {
+    width: 100%;
+    height: 100%;
+}
+
+.galeria_disenoweb4 {
+    background: url("../img/proyectos/diseñoweb/galeria-pro-4.jpg")center / cover no-repeat;
+    grid-column: 1/1;
+    grid-row: 2/3;
+}
+
+.galeria_disenoweb5 {
+    background-color: #ED750D;
+    grid-column: 2/2;
+    padding: 2%;
+    grid-row: 2/3;
+}
+
+.galeria_disenoweb5 h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 34% 0% 34% 0%;
+    font-size: 2em;
+}
+
+.galeria_disenoweb5 a {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5%;
+    margin-left: 38%;
+    background-color: #080C0B;
+    font-family: 'SF New Republic';
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.galeria_disenoweb5 a:hover {
+    opacity: 50%;
+}
+
+.rodapie {
+    background-color: #F2C231;
+}

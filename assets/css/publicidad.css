@@ -1,0 +1,81 @@
+/*publicidad.html*/
+
+.proyectos_publicidad-1 {
+    width: 10%;
+    position: absolute;
+    left: 25%;
+    top: -100px;
+    z-index: 1;
+}
+
+.proyectos_publicidad-2 {
+    width: 10%;
+    position: absolute;
+    left: 10px;
+    top: 118px;
+    z-index: 1;
+}
+
+.proyectos_publicidad-3 {
+    width: 24%;
+    position: absolute;
+    left: 50%;
+    z-index: 0;
+}
+
+.galeria_publicidad1 {
+    background: url("../img/proyectos/publicidad/galeria-pro-1.gif")center / cover no-repeat;
+    grid-row: 1/1;
+}
+
+.galeria_publicidad2 {
+    background-color: #188B81;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    padding: 2%;
+}
+
+.galeria_publicidad2 h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 30% 0% 30% 0%;
+    font-size: 2em;
+}
+
+.galeria_publicidad2 a {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5%;
+    margin-left: 38%;
+    background-color: #080C0B;
+    font-family: 'SF New Republic';
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.galeria_publicidad2 a:hover {
+    opacity: 50%;
+}
+
+.galeria_publicidad3 {
+    background-color: #1C2636;
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+
+.galeria_publicidad3 video {
+    width: 100%;
+    height: 100%;
+}
+
+.galeria_publicidad4 {
+    background: url("../img/proyectos/publicidad/galeria-pro-4.jpg")center / cover no-repeat;
+    grid-column: 1/1;
+    grid-row: 2/3;
+}
+
+.galeria_publicidad5 {
+    background: url("../img/proyectos/publicidad/galeria-pro-5.jpg")center / cover no-repeat;
+    grid-column: 2/2;
+    grid-row: 2/3;
+}

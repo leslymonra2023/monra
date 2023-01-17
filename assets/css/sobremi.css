@@ -1,0 +1,192 @@
+     /*sobrei.html*/
+     
+     body {
+         font-family: 'Montserrat';
+     }
+     
+     .sobremi {
+         width: 100%;
+         height: auto;
+     }
+     
+     .perfil {
+         width: 100%;
+         height: 400px;
+         background-image: linear-gradient(to top, rgba(8, 12, 11, 1), rgba(225, 225, 225, 1));
+         margin-top: 80px;
+     }
+     
+     .perfil-intro {
+         display: flex;
+         flex-direction: row;
+         height: 400px;
+     }
+     
+     .perfil-intro-cotenido {
+         width: 33.3%;
+         margin-left: 4%;
+         height: 380px;
+     }
+     
+     .perfil-intro-cotenido h1 {
+         color: #FFFFFF;
+         font-size: 2.5em;
+         margin-top: 50%;
+         font-family: 'SF New Republic';
+     }
+     
+     .perfil-intro-cotenido h1:hover {
+         color: #D81B79;
+     }
+     
+     .perfil-intro-cotenido p {
+         color: #FFFFFF;
+         font-size: 1.5em;
+         white-space: normal;
+     }
+     
+     .perfil-intro-cotenido img {
+         height: 105.4%;
+     }
+     
+     .experiencia {
+         width: 100%;
+         height: auto;
+         background-color: #080C0B;
+     }
+     
+     .experiencia h1 {
+         color: #FFFFFF;
+         font-size: 2.5em;
+         font-family: 'SF New Republic';
+         text-align: center;
+         padding-top: 5%;
+     }
+     
+     .experiencia-laboral {
+         display: flex;
+         flex-direction: row;
+         height: 600px;
+         flex-wrap: wrap;
+         margin-top: 5%;
+     }
+     
+     .experiencia-laboral-por-año {
+         width: 50%;
+         height: auto;
+         flex-wrap: wrap;
+     }
+     
+     .experiencia-laboral-por-año a img {
+         width: 100%;
+         height: auto;
+     }
+     
+     .experiencia-laboral-por-año:hover {
+         opacity: 50%;
+     }
+     
+     .formacion {
+         width: 100%;
+         height: auto;
+         background-color: #FFFFFF;
+     }
+     
+     .formacion h1 {
+         color: #080C0B;
+         font-size: 2.5em;
+         font-family: 'SF New Republic';
+         text-align: center;
+         padding-top: 5%;
+     }
+     
+     .formacioneducativa {
+         display: flex;
+         margin-top: 5%;
+         flex-wrap: wrap;
+     }
+     
+     .formacioneducativaporaño {
+         width: 31.3%;
+         text-align: center;
+         height: auto;
+         margin: 1% 1% 1% 1%;
+         box-shadow: 0px 8px 8px -6px #080C0B;
+     }
+     
+     .formacioneducativaporaño:hover {
+         background-color: #D81B79;
+         color: #FFFFFF;
+         ;
+     }
+     
+     .formacioneducativaporaño h2 {
+         margin-top: 8%;
+         font-family: 'SF New Republic';
+         font-size: 2em;
+     }
+     
+     .formacioneducativaporaño p {
+         font-size: 1.5em;
+         padding: 5%;
+     }
+     
+     .formacioneducativaporaño img {
+         margin-top: 8%;
+         margin-bottom: 8%;
+         width: 40px;
+     }
+     
+     .formacioneducativaporaño img:hover {
+         opacity: 50%;
+     }
+     
+     .formacion-habilidades {
+         width: 100%;
+         margin: 8% 0% 0% 0%;
+     }
+     
+     .formacion-habilidades:hover {
+         opacity: 25%;
+     }
+     
+     .formacion-cv {
+         color: #080C0B;
+         font-size: 2em;
+         font-family: 'SF New Republic';
+         text-align: center;
+         margin: auto;
+         padding: 5%;
+     }
+     
+     .formacion-cv:hover {
+         color: #D81B79;
+         font-size: 2.5em;
+     }
+     /*Responsive*/
+     
+     @media(max-width:768px) {
+         .experiencia-laboral {
+             flex-direction: column;
+             height: auto;
+         }
+         .experiencia-laboral-por-año {
+             width: 100%;
+             height: auto;
+         }
+         .formacioneducativa {
+             flex-direction: column;
+             height: auto;
+         }
+         .formacioneducativaporaño {
+             width: 60%;
+             height: auto;
+             margin: auto;
+         }
+         .formacion-habilidades,
+         .perfil-intro-cotenido img {
+             display: none;
+             grid-column: none;
+             grid-row: none;
+         }
+     }
